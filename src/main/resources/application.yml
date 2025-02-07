@@ -32,4 +32,4 @@ springdoc:
 # External services
 services:
   student:
-    url: ${STUDENT_SERVICE_URL:https://ms-vg-student-production.up.railway.app/public/api/v1/ubigeo/}
+    url: ${STUDENT_SERVICE_URL:https://vg-ms-student-production.up.railway.app/public/api/v1/ubigeo/}
