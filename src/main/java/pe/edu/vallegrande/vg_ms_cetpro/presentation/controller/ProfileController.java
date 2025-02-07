@@ -11,7 +11,6 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST,RequestMethod.PUT})
 @RequestMapping("/management/${api.version}/profile")
 public class ProfileController {
 
